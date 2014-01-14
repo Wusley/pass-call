@@ -1,0 +1,10 @@
+{
+  "name": "passcall",
+  "version": "0.0.0",
+  "homepage": "https://github.com/thwess/passcall",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "~3.0.3",
+    "angularjs": "*"
+  }
+}

@@ -1,0 +1,6 @@
+http_path = "/public/"
+css_dir = "/public/css"
+sass_dir = "/public/sass"
+images_dir = "/public/images"
+javascripts_dir = "/public/js"
+cache_path = "/.sass-cache"

@@ -1,0 +1,87 @@
+{
+    "project": {
+        "name": "Passcall",
+        "description": "Sistema de atendimento",
+        "version": "0.0.1",
+        "url": "http://doc"
+    },
+    "files": {
+        "resources/js/src/libraries/hbs.js": {
+            "name": "resources/js/src/libraries/hbs.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "resources/js/src/modules/project.js": {
+            "name": "resources/js/src/modules/project.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {},
+    "classes": {},
+    "classitems": [
+        {
+            "file": "resources/js/src/libraries/hbs.js",
+            "line": 1,
+            "license": "Handlebars hbs 0.4.0 - Alex Sexton, but Handlebars has it's own licensing junk\n\nAvailable via the MIT or new BSD license.\nsee: http://github.com/jrburke/require-cs for details on the plugin this was based off of",
+            "class": ""
+        },
+        {
+            "file": "resources/js/src/modules/project.js",
+            "line": 1,
+            "description": "My method description.  Like other pieces of your comment blocks, \nthis can span multiple lines.",
+            "itemtype": "method",
+            "name": "methodName",
+            "params": [
+                {
+                    "name": "foo",
+                    "description": "Argument 1",
+                    "type": "String"
+                },
+                {
+                    "name": "config",
+                    "description": "A config object",
+                    "type": "Object",
+                    "props": [
+                        {
+                            "name": "name",
+                            "description": "The name on the config object",
+                            "type": "String"
+                        },
+                        {
+                            "name": "callback",
+                            "description": "A callback function on the config object",
+                            "type": "Function"
+                        }
+                    ]
+                },
+                {
+                    "name": "extra",
+                    "description": "Do extra, optional work",
+                    "type": "Boolean",
+                    "optional": true,
+                    "optdefault": "false"
+                }
+            ],
+            "return": {
+                "description": "Returns true on success",
+                "type": "Boolean"
+            },
+            "class": ""
+        }
+    ],
+    "warnings": [
+        {
+            "message": "unknown tag: license",
+            "line": " resources/js/src/libraries/hbs.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " resources/js/src/libraries/hbs.js:1"
+        }
+    ]
+}

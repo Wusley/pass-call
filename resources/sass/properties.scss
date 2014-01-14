@@ -1,0 +1,17 @@
+@import "compass/css3";
+@import "compass/utilities";
+
+/*Size*/
+
+/*Colors*/
+
+/*Fonts*/
+
+/*Prefixes*/
+@mixin standard-prefixes( $property, $value ) {
+	-webkit-#{$property}: $value;
+	-moz-#{$property}: $value;
+	-ms-#{$property}: $value;
+	-o-#{$property}: $value;
+	#{$property}: $value;
+}
